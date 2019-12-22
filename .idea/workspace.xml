@@ -2,9 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fc2597b-08be-453e-99b6-5a490403c1c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth_api/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth_api/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth_api/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth_api/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/html/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/html/scrumboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/login.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/login.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/17092fc0-dc78-4202-a34a-7df994b0d2b8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/17092fc0-dc78-4202-a34a-7df994b0d2b8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/django_and_angular.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django_and_angular.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrumboard/static/scrumboard/card.directive.js" beforeDir="false" afterPath="$PROJECT_DIR$/scrumboard/static/scrumboard/card.directive.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_and_angular/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_and_angular/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_and_angular/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_and_angular/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrumboard/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrumboard/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrumboard/static/scrumboard/card.directive.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/card.directive.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrumboard/static/scrumboard/card.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/html/card.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrumboard/static/scrumboard/css/scrumboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/scrumboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrumboard/static/scrumboard/scrumboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/scrumboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrumboard/templates/scrumboard/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +84,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -81,18 +101,22 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="copyright.filetypes.Properties" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/scrumboard/templates/scrumboard" />
-      <recent name="$PROJECT_DIR$/scrumboard" />
-      <recent name="$PROJECT_DIR$/django_and_angular" />
+      <recent name="C:\Users\Kyle_\Documents\PyCharm_Projects\Django_and_Angular\Django_Angular_Practice\templates" />
+      <recent name="C:\Users\Kyle_\Documents\PyCharm_Projects\Django_and_Angular\Django_Angular_Practice\static\css" />
+      <recent name="C:\Users\Kyle_\Documents\PyCharm_Projects\Django_and_Angular\Django_Angular_Practice\static\js" />
+      <recent name="C:\Users\Kyle_\Documents\PyCharm_Projects\Django_and_Angular\Django_Angular_Practice\static\html" />
+      <recent name="C:\Users\Kyle_\Documents\PyCharm_Projects\Django_and_Angular\Django_Angular_Practice\auth_api" />
     </key>
   </component>
   <component name="RunManager">
@@ -104,7 +128,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="django_and_angular.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\Kyle_\AppData\Local\Programs\Python\Python37-32\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -113,7 +137,7 @@
       <option name="port" value="8000" />
       <option name="host" value="" />
       <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
       <option name="runTestServer" value="false" />
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
@@ -126,12 +150,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:db.sqlite3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -150,6 +169,8 @@
       <updated>1575950286759</updated>
       <workItem from="1575950305349" duration="1751000" />
       <workItem from="1576550229666" duration="21234000" />
+      <workItem from="1576944455885" duration="4908000" />
+      <workItem from="1577021759184" duration="14771000" />
     </task>
     <servers />
   </component>
@@ -161,21 +182,29 @@
       <screen x="0" y="23" width="1920" height="1152" />
     </state>
     <state x="1040" y="264" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1152@0.23.1920.1152" timestamp="1576581886041" />
-    <state width="918" height="386" key="GridCell.Tab.0.bottom" timestamp="1576899100258">
-      <screen x="0" y="23" width="1920" height="1152" />
+    <state x="1604" y="234" key="#django_and_angular" timestamp="1576944539892">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
+    <state x="1604" y="234" key="#django_and_angular/0.0.2560.1410/2560.11.2560.1410@0.0.2560.1410" timestamp="1576944539892" />
+    <state width="2505" height="185" key="GridCell.Tab.0.bottom" timestamp="1577029679550">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2505" height="185" key="GridCell.Tab.0.bottom/0.0.2560.1410/2560.11.2560.1410@0.0.2560.1410" timestamp="1577029679550" />
     <state width="918" height="386" key="GridCell.Tab.0.bottom/0.23.1920.1152@0.23.1920.1152" timestamp="1576899100258" />
-    <state width="918" height="386" key="GridCell.Tab.0.center" timestamp="1576899100257">
-      <screen x="0" y="23" width="1920" height="1152" />
+    <state width="2505" height="185" key="GridCell.Tab.0.center" timestamp="1577029679550">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
+    <state width="2505" height="185" key="GridCell.Tab.0.center/0.0.2560.1410/2560.11.2560.1410@0.0.2560.1410" timestamp="1577029679550" />
     <state width="918" height="386" key="GridCell.Tab.0.center/0.23.1920.1152@0.23.1920.1152" timestamp="1576899100257" />
-    <state width="918" height="386" key="GridCell.Tab.0.left" timestamp="1576899100257">
-      <screen x="0" y="23" width="1920" height="1152" />
+    <state width="2505" height="185" key="GridCell.Tab.0.left" timestamp="1577029679550">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
+    <state width="2505" height="185" key="GridCell.Tab.0.left/0.0.2560.1410/2560.11.2560.1410@0.0.2560.1410" timestamp="1577029679550" />
     <state width="918" height="386" key="GridCell.Tab.0.left/0.23.1920.1152@0.23.1920.1152" timestamp="1576899100257" />
-    <state width="918" height="386" key="GridCell.Tab.0.right" timestamp="1576899100257">
-      <screen x="0" y="23" width="1920" height="1152" />
+    <state width="2505" height="185" key="GridCell.Tab.0.right" timestamp="1577029679550">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
+    <state width="2505" height="185" key="GridCell.Tab.0.right/0.0.2560.1410/2560.11.2560.1410@0.0.2560.1410" timestamp="1577029679550" />
     <state width="918" height="386" key="GridCell.Tab.0.right/0.23.1920.1152@0.23.1920.1152" timestamp="1576899100257" />
     <state width="918" height="386" key="GridCell.Tab.1.bottom" timestamp="1576899100259">
       <screen x="0" y="23" width="1920" height="1152" />
@@ -197,13 +226,29 @@
       <screen x="0" y="23" width="1920" height="1152" />
     </state>
     <state width="239" height="457" key="HiddenNamespacesPopup/0.23.1920.1152@0.23.1920.1152" timestamp="1576582406501" />
-    <state x="923" y="237" key="SettingsEditor" timestamp="1576579403802">
-      <screen x="0" y="23" width="1920" height="1152" />
+    <state x="1400" y="386" key="IDE.errors.dialog" timestamp="1577028701692">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
+    <state x="1400" y="386" key="IDE.errors.dialog/0.0.2560.1410/2560.11.2560.1410@0.0.2560.1410" timestamp="1577028701692" />
+    <state x="1231" y="262" key="SettingsEditor" timestamp="1576944659788">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1231" y="262" key="SettingsEditor/0.0.2560.1410/2560.11.2560.1410@0.0.2560.1410" timestamp="1576944659788" />
     <state x="923" y="237" key="SettingsEditor/0.23.1920.1152@0.23.1920.1152" timestamp="1576579403802" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1576898898016">
       <screen x="0" y="23" width="1920" height="1152" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.23.1920.1152@0.23.1920.1152" timestamp="1576898898016" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django_and_angular/urls.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

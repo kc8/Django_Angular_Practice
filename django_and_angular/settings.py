@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'djangular.apps.DjangularConfig',
     'scrumboard',
     'rest_framework',
+    'auth_api', #This name would be a duplicate if we did not do auth_api
 ]
 
 MIDDLEWARE = [
@@ -57,8 +58,7 @@ ROOT_URLCONF = 'django_and_angular.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')]
-        ,
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -122,3 +122,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = ( #point to top level foler.
+    os.path.join(BASE_DIR, 'static'),
+)

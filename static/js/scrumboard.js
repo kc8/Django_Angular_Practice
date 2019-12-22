@@ -1,9 +1,9 @@
 (function() {
     'use strict';
-    angular.module('scrumboard.demo', [])
-        .controller('ScrumboardController', ['$scope', '$http', ScrumboardController]);
+    angular.module('scrumboard.demo', ['ngRoute']) // important as we tell the module that route is a dependency in depdency list
+        .controller('ScrumboardController', ['$scope', '$http', 'Login', ScrumboardController]);
 
-    function ScrumboardController($scope, $http) {
+    function ScrumboardController($scope, $http, Login) {
         $scope.add = function(list, title) {
             let card = {
                 list: list.id,
@@ -18,7 +18,14 @@
                     });
             list.cards.push(card);
         };
+
+        Login.redirectIfNotLoggedIn();
         $scope.data = [];
+        $scope.logout = Login.logout;
+        $scope.sortBy='title';
+        $scope.reverse=false;
+        $scope.showFilters=false;
+
         $http.get('/scrumboard/lists/').then(function(response) {
             $scope.data = response.data;
         });
