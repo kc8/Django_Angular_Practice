@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fc2597b-08be-453e-99b6-5a490403c1c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/auth_api/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth_api/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth_api/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth_api/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/html/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/html/scrumboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/login.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/login.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/17092fc0-dc78-4202-a34a-7df994b0d2b8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/17092fc0-dc78-4202-a34a-7df994b0d2b8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/django_and_angular.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django_and_angular.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_and_angular/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_and_angular/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_and_angular/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_and_angular/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrumboard/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrumboard/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrumboard/static/scrumboard/card.directive.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/card.directive.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrumboard/static/scrumboard/card.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/html/card.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrumboard/static/scrumboard/css/scrumboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/scrumboard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrumboard/static/scrumboard/scrumboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/scrumboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrumboard/templates/scrumboard/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +60,10 @@
     </expand>
     <select />
   </component>
-  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" module-name="django_and_angular" is-module-sdk="true">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+    <option name="myUseModuleSdk" value="true" />
+    <option name="myModuleName" value="django_and_angular" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -105,10 +89,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../rpi_relay_api" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="tasks" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="django_and_angular" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="django_and_angular" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -170,7 +162,12 @@
       <workItem from="1575950305349" duration="1751000" />
       <workItem from="1576550229666" duration="21234000" />
       <workItem from="1576944455885" duration="4908000" />
-      <workItem from="1577021759184" duration="14771000" />
+      <workItem from="1577021759184" duration="14772000" />
+      <workItem from="1577203400786" duration="4000" />
+      <workItem from="1577210190912" duration="142000" />
+      <workItem from="1577907037465" duration="2013000" />
+      <workItem from="1578004273138" duration="621000" />
+      <workItem from="1578099337712" duration="1355000" />
     </task>
     <servers />
   </component>
@@ -178,6 +175,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="218" y="283" key="#Deployment" timestamp="1577907335612">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="218" y="283" key="#Deployment/0.0.2560.1410/2560.11.2560.1410@0.0.2560.1410" timestamp="1577907335612" />
+    <state x="218" y="283" key="#Options" timestamp="1577907323542">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="218" y="283" key="#Options/0.0.2560.1410/2560.11.2560.1410@0.0.2560.1410" timestamp="1577907323542" />
     <state x="1040" y="264" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576581886041">
       <screen x="0" y="23" width="1920" height="1152" />
     </state>
@@ -186,6 +191,10 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="1604" y="234" key="#django_and_angular/0.0.2560.1410/2560.11.2560.1410@0.0.2560.1410" timestamp="1576944539892" />
+    <state x="1345" y="402" width="540" height="878" key="FileChooserDialogImpl" timestamp="1578004289799">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1345" y="402" width="540" height="878" key="FileChooserDialogImpl/0.0.2560.1410/2560.11.2560.1410@0.0.2560.1410" timestamp="1578004289799" />
     <state width="2505" height="185" key="GridCell.Tab.0.bottom" timestamp="1577029679550">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
@@ -230,10 +239,10 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="1400" y="386" key="IDE.errors.dialog/0.0.2560.1410/2560.11.2560.1410@0.0.2560.1410" timestamp="1577028701692" />
-    <state x="1231" y="262" key="SettingsEditor" timestamp="1576944659788">
+    <state x="868" y="341" key="SettingsEditor" timestamp="1577907469697">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="1231" y="262" key="SettingsEditor/0.0.2560.1410/2560.11.2560.1410@0.0.2560.1410" timestamp="1576944659788" />
+    <state x="868" y="341" key="SettingsEditor/0.0.2560.1410/2560.11.2560.1410@0.0.2560.1410" timestamp="1577907469697" />
     <state x="923" y="237" key="SettingsEditor/0.23.1920.1152@0.23.1920.1152" timestamp="1576579403802" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1576898898016">
       <screen x="0" y="23" width="1920" height="1152" />
