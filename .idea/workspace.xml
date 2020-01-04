@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fc2597b-08be-453e-99b6-5a490403c1c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_and_angular/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_and_angular/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +165,7 @@
       <workItem from="1577210190912" duration="142000" />
       <workItem from="1577907037465" duration="2013000" />
       <workItem from="1578004273138" duration="621000" />
-      <workItem from="1578099337712" duration="1355000" />
+      <workItem from="1578099337712" duration="1961000" />
     </task>
     <servers />
   </component>
